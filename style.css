@@ -1,0 +1,29 @@
+#contact {
+  text-align: center;
+}
+
+#contact form {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+}
+
+#contact label, #contact input, #contact textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#contact input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #45a049;
+}
