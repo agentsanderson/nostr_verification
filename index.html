@@ -14,35 +14,47 @@
         justify-content: center;
       }
 
-        /* Style the buttons */
-  .btn {
-    background-color: #1da1f2;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-right: 10px;
-    display: inline-block;
-  }
-</style>
+      /* Style the buttons */
+      .btn {
+        background-color: #1da1f2;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-right: 10px;
+        display: inline-block;
+      }
+
+      /* Style the contact form */
+      #contact {
+        margin-top: 50px;
+        text-align: center;
+      }
+      
+      #contact h2 {
+        color: #fff;
+      }
+      
+      #contact form label, #contact form input, #contact form textarea {
+        color: #fff;
+      }
+    </style>
   </head>
   <body>
     <!-- Add the button that links to your Twitter account -->
-    <div style="text-align:center;">
     <a href="https://twitter.com/agentsanderson" class="btn">twitter</a>
     <a href="https://www.agentsanderson.com" class="btn">website</a>
-    </div>
-    <br><br><br>
-    <section id="contact" style="text-align:center;">
-      <h2 style="color: white;">Contact Me</h2>
+    
+    <section id="contact">
+      <h2>Contact Me</h2>
       <form action="mailto:agentsanderson@icloud.com" method="post" enctype="text/plain">
-        <label for="name" style="color: white;">Name:</label>
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
-        <label for="email" style="color: white;">Email:</label>
+        <label for="email">Email:</label>
         <input type="email" id="email" name="email"><br><br>
-        <label for="phone" style="color: white;">Phone:</label>
-        <input type="tel" id="phone" name="phone"><br><br>
-        <label for="message" style="color: white;">Message:</label>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone"><br><br>
+        <label for="message">Message:</label>
         <textarea id="message" name="message"></textarea><br><br>
         <input type="submit" value="Submit">
       </form>
